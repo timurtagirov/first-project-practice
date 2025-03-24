@@ -35,6 +35,15 @@
  *git push* - push commits to remote repository  
  *git clone* - clone a remote repository on local computer  
 
-# Ещё больше комманд на коммиты
- *git log --oneline* - get a shorter version of list of commits
- **HEAD** - is the last commit. You can see its hash in the folder .git/HEAD in a local repository
+# Ещё больше комманд на коммиты  
+ *git log --oneline* - get a shorter version of list of commits  
+ **HEAD** - is the last commit. You can see its hash in the folder .git/HEAD in a local repository  
+ *git restore --staged example.txt* or *gir restore --staged .* - cancel **git add** command for the file example.txt or for all files in directory (**.**)  
+ *git reset --hard <commit hash>* - deletes all commits after <commit hash>, makes <commot hash> HEAD  
+ *git restore <file>* - discard changes in modified files (the ones after git add or git commit)  
+ *git diff* - shows changes between the last committed and current modified versions  
+ *git diff --staged* - shows changes between the last committed and staged versions  
+ *echo "some text" > file.txt* - deletes everything in file.txt and adds "some text"  
+ *echo "some text" >> file.txt* - adds "some text" in file.txt in last line  
+ *git diff <hash A> <hash B> - difference between commits A and B  
+
