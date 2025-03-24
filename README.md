@@ -34,3 +34,7 @@
  *git push -u origin main* - push commits to remote repository for the first time  
  *git push* - push commits to remote repository  
  *git clone* - clone a remote repository on local computer  
+
+# Ещё больше комманд на коммиты
+ *git log --oneline* - get a shorter version of list of commits
+ **HEAD** - is the last commit. You can see its hash in the folder .git/HEAD in a local repository
